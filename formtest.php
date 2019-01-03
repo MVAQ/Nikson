@@ -11,5 +11,12 @@ echo <<<_END
 <title>form test</title>
 </head>
 <body>
+<form method="post" action="formtest.php">
+What is your name?
+<input type="text" name="name">
+<input type="submit">
+</form>
+</body>
+</html>
 _END;
 ?>
